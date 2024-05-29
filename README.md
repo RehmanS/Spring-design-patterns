@@ -32,6 +32,7 @@ To add a new payment method, follow these steps:
 1. Create a new class that implements the PaymentStrategy interface.
 2. Just use the new strategy without modifying existing code.
 
+### Project Structure
 ``` plaintext
 src/main/java/com/example/payment
 ├── PaymentApplication.java
