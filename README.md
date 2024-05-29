@@ -10,10 +10,10 @@ The project supports two types of payment methods:
 Additional payment methods can be easily added in the future.
 
 ### Design Patterns Used
-**Factory Pattern**
+**Factory Pattern:**
 The Factory pattern is used to create instances of different payment strategies. This allows for the instantiation of payment methods at runtime based on the type of payment.
 
-**Strategy Pattern**
+**Strategy Pattern:**
 The Strategy pattern is used to define a family of algorithms (payment methods), encapsulate each one, and make them interchangeable. This pattern lets the payment method vary independently from the clients that use it.
 
 ### SOLID Principles
