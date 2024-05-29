@@ -41,6 +41,8 @@ src/main/java/com/example/payment
 │   ├── PaymentStrategy.java
 │   ├── CreditCardPayment.java
 │   ├── WiredTransferPayment.java
+├── dto
+│   ├── PaymentRequest.java
 └── controller
     ├── PaymentController.java
 ```
