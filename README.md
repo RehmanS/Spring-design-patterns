@@ -4,7 +4,7 @@ This is a demo project built with Spring Boot that demonstrates how to use the F
 ### Project Overview
 The project supports two types of payment methods:
 
-* **Credit Card** \n
+* **Credit Card** 
 * **Wired Transfer**
 
 Additional payment methods can be easily added in the future.
@@ -19,15 +19,15 @@ The Strategy pattern is used to define a family of algorithms (payment methods),
 ### SOLID Principles
 The project follows the SOLID principles, with a focus on the Open/Closed Principle, which states that classes should be open for extension but closed for modification. This is achieved by using the Strategy pattern to add new payment methods without changing the existing code.
 
-src/main/java/com/example/payment
-├── PaymentApplication.java
-├── factory
-│   ├── PaymentFactory.java
-├── strategy
-│   ├── PaymentStrategy.java
-│   ├── CreditCardPayment.java
-│   ├── WiredTransferPayment.java
-├── service
-│   ├── PaymentService.java
-└── controller
-    ├── PaymentController.java
+
+### Key Components
+* PaymentFactory: Responsible for creating instances of payment strategies.
+* PaymentStrategy: An interface defining the execute method for processing payments.
+* CreditCardPayment: Implements the PaymentStrategy interface for credit card payments.
+* WiredTransferPayment: Implements the PaymentStrategy interface for wired transfer payments.
+* PaymentController: REST controller for handling payment requests.
+
+### Adding a New Payment Method
+To add a new payment method, follow these steps:
+1. Create a new class that implements the PaymentStrategy interface.
+2. Just use the new strategy without modifying existing code.
