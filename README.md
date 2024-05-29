@@ -17,7 +17,7 @@ The Factory pattern is used to create instances of different payment strategies.
 The Strategy pattern is used to define a family of algorithms (payment methods), encapsulate each one, and make them interchangeable. This pattern lets the payment method vary independently from the clients that use it.
 
 ### SOLID Principles
-The project follows the SOLID principles, with a focus on the Open/Closed Principle, which states that classes should be open for extension but closed for modification. This is achieved by using the Strategy pattern to add new payment methods without changing the existing code.
+The project follows the SOLID principles, with a focus on the **Open/Closed Principle**, which states that classes should be open for extension but closed for modification. This is achieved by using the Strategy pattern to add new payment methods without changing the existing code.
 
 
 ### Key Components
