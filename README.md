@@ -31,3 +31,16 @@ The project follows the SOLID principles, with a focus on the **Open/Closed Prin
 To add a new payment method, follow these steps:
 1. Create a new class that implements the PaymentStrategy interface.
 2. Just use the new strategy without modifying existing code.
+
+src/main/java/com/example/payment
+├── PaymentApplication.java
+├── factory
+│   ├── PaymentFactory.java
+├── strategy
+│   ├── PaymentStrategy.java
+│   ├── CreditCardPayment.java
+│   ├── WiredTransferPayment.java
+├── service
+│   ├── PaymentService.java
+└── controller
+    ├── PaymentController.java
