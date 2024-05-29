@@ -4,7 +4,7 @@ This is a demo project built with Spring Boot that demonstrates how to use the F
 ### Project Overview
 The project supports two types of payment methods:
 
-    *** Credit Card ***
+    ** Credit Card ** 
     Wired Transfer
 
 Additional payment methods can be easily added in the future.
